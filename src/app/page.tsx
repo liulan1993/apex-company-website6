@@ -2,14 +2,11 @@
 
 import React, { useState, useEffect, useCallback } from 'react';
 import { motion } from 'framer-motion';
-import { type ClassValue, clsx } from 'clsx';
-import { twMerge } from 'tailwind-merge';
+// 移除了未使用的 clsx 和 tailwind-merge 导入
+// import { type ClassValue, clsx } from 'clsx';
+// import { twMerge } from 'tailwind-merge';
 
-// --- 辅助工具函数 ---
-// 用于安全地合并 Tailwind CSS 类名
-function cn(...inputs: ClassValue[]): string {
-  return twMerge(clsx(inputs));
-}
+// --- 移除了未使用的 cn 函数 ---
 
 // --- 图标组件 ---
 function ArrowLeftRightIcon(props: React.SVGProps<SVGSVGElement>) {
