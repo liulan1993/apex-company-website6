@@ -182,7 +182,7 @@ function CurrencyInput({ value, onValueChange, currency, onCurrencyChange }: Cur
             <select
                 value={currency}
                 onChange={(e) => onCurrencyChange(e.target.value as Currency)}
-                className="w-full px-4 py-2 mb-2 bg-white border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-gray-400"
+                className="w-full px-4 py-2 mb-2 bg-white border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-gray-400 text-gray-800"
             >
                 {currencies.map(c => (
                     <option key={c.code} value={c.code}>{c.code} - {c.name}</option>
@@ -193,7 +193,7 @@ function CurrencyInput({ value, onValueChange, currency, onCurrencyChange }: Cur
                 value={value}
                 onChange={onValueChange}
                 placeholder="0.00"
-                className="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-gray-400 focus:outline-none transition-all placeholder-gray-400"
+                className="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-gray-400 focus:outline-none transition-all placeholder-gray-400 text-gray-800"
             />
         </div>
     );
