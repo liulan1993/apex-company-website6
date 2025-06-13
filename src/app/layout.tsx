@@ -13,8 +13,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Apex个税计算器",
-  description: "Apex个税计算器 - 计算您的个人所得税",
+  title: "Apex汇率查询",
+  description: "Apex汇率查询 - 实时汇率计算器",
 };
 
 export default function RootLayout({
